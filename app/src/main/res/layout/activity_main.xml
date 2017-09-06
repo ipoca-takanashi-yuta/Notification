@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/normal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="normal"/>
+
+    <Button
+        android:id="@+id/big_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="big text"/>
+
+    <Button
+        android:id="@+id/big_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="big picture"/>
+
+    <Button
+        android:id="@+id/inbox_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inbox"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel notification"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:max="20"
+            />
+
+        <Button
+            android:id="@+id/after_notification_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0秒後に通知"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/alarm_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel alarm"/>
+</LinearLayout>
